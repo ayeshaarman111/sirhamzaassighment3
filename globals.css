@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  body{
+    color: wheat;
+    background-color: rgb(3, 1, 1);
+  }
+  .tags{
+
+    background-color: brown;
+    margin-right: 0.5rem ;
+    margin-top: 0.5rem;
+    padding: 3px 10px;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 12px;
+  }
+  .tags:last-child{
+    margin-right: 0;
+  }
+  .tags:nth-child(2){
+    background-color: blueviolet;
+  }
+
+  .tags:nth-child(3){
+    background-color: rgb(43, 174, 226);
+  }
+
+  .tags:nth-child(4){
+    background-color: rgb(167, 117, 10);
+  }
+}
+
+
